@@ -1,0 +1,190 @@
+/* nav */
+nav{
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#nav>ul>li>a{
+    color: black;
+}
+
+#nav>ul>li> a.nav-link:hover{
+    color: hotpink;
+}
+
+nav li a{
+    margin-left: 10px;
+}
+
+/* about-us joke */
+.joke{
+    font-style: italic;
+    font-weight: bold;
+    color: hotpink;
+}
+
+/* all titles */
+.title{
+    text-align: center;
+}
+
+.container h2.title{
+    color: hotpink;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+/* buttons */
+.botin{
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: hotpink;
+    padding: 10px 10px;
+    text-align: center;
+}
+.botin a{
+    color: white;
+}
+
+/* cards */
+.card .card-header img{
+    width: 100%;
+    height: 200px;
+}
+
+.card .card-header{
+    padding: 0;
+    height: 200px;
+}
+
+.card,
+.card .card-header img{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.card{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.card-body{
+    text-align: center;
+    height: 200px;
+}
+
+.card-body h3{
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+}
+
+.card-body h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+.card-body p.position{
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+/* sidebar on personal info pages */
+.sidebar{
+    list-style: none;
+    padding-left: 0;
+    background-color: transparent;
+    /* border: 1px solid gray; */
+}
+
+.sidebar li{
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left:30px;
+}
+
+.sidebar li a {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar li:hover a{
+    color:hotpink;
+}
+/* .sidebar li:hover, */
+.sidebar li.active a{
+    font-weight: 800;
+    
+}
+
+.sidebar li.active a{
+    color:gray;
+}
+
+/* carousel */
+.carousel{
+    max-height: 500px;
+    height: 500px;
+}
+
+.carousel img{
+    width: 100%;
+    height: 450px;
+}
+
+/* table on personal info pages */
+.table-head{
+    font-weight: 900;
+    text-align: center;
+}
+
+/* form label in contact-us page */
+.label-color{
+    color: hotpink;
+}
+/* horizontal rule on all pages */
+hr{
+    border: none;
+    width: 40%;
+    height: 2px;
+    background-color: hotpink;
+}
+
+/* footer */
+footer> a {
+    text-decoration: none;
+}
+
+/* p.button .btn{
+    background-color: hotpink;
+    color: white; */
+
+/* .card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+.card-header{
+    min-height: 105px;
+}
+.card-body{
+    min-height:100px;
+    text-align: center;
+}
+.job{
+    font-style: italic;
+    font-weight: bold;
+}
+.card-2{
+    background-color: indianred;
+}
+.card-3{
+    background-color:purple;
+}
+.card-4{
+    background-color:limegreen;
+} */
